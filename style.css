@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #000080;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h4 {
+    color: #776969;
+}
+
+main {
+    padding: 2rem;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.filme {
+    text-align: center;
+}
+
+.filme img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #000080;
+}
+
+.filme h2 {
+    margin: 0.5rem 0 0;
+}
+
+footer {
+    background-color: #000080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.criticas, .lancamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.criticas article, .lancamentos article {
+    border: 1px solid #000080;
+    padding: 1rem;
+}
+
+body.light-mode{
+    background-color: rgb(255, 248, 238);
+    color: rgb(130, 97, 58);
+}
+
+body.night-mode {
+    background-color: #2b2b2b;
+    color: rgb(222, 220, 245);
+}
+
+body.night-mode header {
+    background-color: #141313;
+}
+
+body.night-mode footer {
+    background-color: #141313;
+}
+
+body.night-mode button{
+    color: white;
+}
+
+body.night-mode .container{
+    border: 2px solid #141313;
+}
+
+p{
+    width: 70vw;
+}
+
+button{
+    border: transparent;
+    background-color: transparent;
+    border-radius: 30%;
+    color: rgb(130, 97, 58);
+}
+
+button:hover{
+        cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
